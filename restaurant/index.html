@@ -11,6 +11,7 @@
 
 		<!-- external CSS link -->
 		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+		<link rel="stylesheet" href="./reviews/styles.css">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
@@ -21,10 +22,10 @@
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#about-us">About Us</a></li>
-					<li><a href="#">Menu</a></li>
+					<li><a href="./menu/index.html">Menu</a></li>
 					<li><a href="#order-now">Order Now</a></li>
 					<li><a href="#book-now">Book Now</a></li>
-					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#review-h2">Testimonials</a></li>
 					<li><a href="#"><i class="fas fa-solid fa-cart-shopping"></i></a></li>
 					<li><a href="#"><i class="fas fa-solid fa-magnifying-glass"></i></a></li>
 				</ul>
@@ -33,11 +34,11 @@
 
 		<main>
 			<div>
-				<h1>Welcome to our Cuisine Restaurant</h1>
-				<div class="form-holder">
+				<h1>Welcome to Casa de Francesca</h1>
+				<!-- <div class="form-holder">
 					<form action="#"><input placeholder="Search Here" type="text"></form>
 					<a href="#">Location</a>
-				</div>
+				</div> -->
 				<div class="icons">
 					<i class="fab fa-brands fa-facebook-f"> 262k</i>
 					<i class="fab fa-brands fa-twitter"> 62k</i>
@@ -49,13 +50,13 @@
 
 		<section class="about">
 			<span id='about-us'>About Us</span>
-			<h2>Discover Our Restaurant Story</h2>
+			<h2>Discover Our Amazing Story</h2>
 			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque reiciendis earum distinctio optio quos quae, placeat animi excepturi sapiente officiis ex voluptatum quaerat minus cum ab, eos voluptatem. Illum ipsam repellendus recusandae beatae rem ut id aperiam assumenda ad eius facere laboriosam dolore repellat reiciendis, magnam sunt perferendis, quas neque. Necessitatibus quod provident iusto eligendi!</p>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, tenetur sunt molestias illum ad ratione neque autem eveniet.</p>
-			<a href="#">Discover Menu</a>
+			<a href="./menu/index.html">Discover Menu</a>
 		</section>
 
-		<section class="order">
+		<!-- <section class="order">
 			<span id='order-now'>Order Online Now</span>
 			<h2>Our Specialty Cuisine</h2>
 			<nav>
@@ -74,14 +75,14 @@
 				<img src="assets/breakfast4.jpg" alt="">
 			</div>
 			
-		</section>
+		</section> -->
 
 		<section class="book">
-			<span id='book-now'>Book Table</span>
+			<!-- <span id='book-now'>Book Table</span> -->
 			<h2>Opening Hours</h2>
-			<i class="fas fa-solid fa-phone"></i>
-			<span>Call Now</span>
-			<a href="#">714-625-6656</a>
+			<!-- <i class="fas fa-solid fa-phone"></i> -->
+			<!-- <span>Call Now</span> -->
+			<!-- <a href="#">714-625-6656</a> -->
 			<div class="hours">
 				<div class="weekday">
 					<h4>Weekdays</h4>
@@ -96,7 +97,7 @@
 
 		</section>
 
-		<section class="testimonials">
+		<!-- <section class="testimonials">
 			<span id='testimonials'>Testimonials</span>
 			<h2>Customers Say</h2>
 			<img src="assets/man.jpg" alt="Some Dude">
@@ -110,9 +111,42 @@
 				<i class="fas fa-solid fa-star"></i>
 			</div>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, hic sequi! Autem hic quam nostrum velit dolor iure obcaecati commodi error nam mollitia! Voluptatem officia consequatur autem laboriosam accusamus voluptatibus?</p>
+		</section> -->
+
+		<section class="reviews-container">
+			<!-- title -->
+			<div class="review-title">
+				<h2 id="review-h2">our reviews</h2>
+				<div class="underline"></div>
+			</div>
+			<!-- review -->
+			<article class="review">
+				<div class="img-container">
+					<img src="person-1.jpeg" id="person-img" alt="" />
+				</div>
+				<h4 id="author">sara jones</h4>
+				<p id="job">ux designer</p>
+				<p id="info">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+					asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+					Iste, doloremque nihil?
+				</p>
+				<!-- prev next buttons-->
+				<div class="button-container">
+					<button class="prev-btn">
+						<i class="fas fa-chevron-left"></i>
+					</button>
+					<button class="next-btn">
+						<i class="fas fa-chevron-right"></i>
+					</button>
+				</div>
+				<!-- random button -->
+				<button class="random-btn">surprise me</button>
+			</article>
 		</section>
 
 
 		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="./reviews/app.js"></script>
 	</body>
 </html>
